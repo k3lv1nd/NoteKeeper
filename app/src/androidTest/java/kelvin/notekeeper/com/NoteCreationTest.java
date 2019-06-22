@@ -1,8 +1,8 @@
 package kelvin.notekeeper.com;
 
-import android.support.test.espresso.ViewInteraction;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
 
 import org.junit.BeforeClass;
 import org.junit.Rule;
@@ -10,15 +10,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 
-import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
-import static android.support.test.espresso.action.ViewActions.pressBack;
-import static android.support.test.espresso.action.ViewActions.typeText;
-import static android.support.test.espresso.assertion.ViewAssertions.*;
-import static org.junit.Assert.*;
-import static android.support.test.espresso.Espresso.*;
-import static android.support.test.espresso.matcher.ViewMatchers.*;
-import static  android.support.test.espresso.ViewAction.*;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.pressBack;
+import static androidx.test.espresso.action.ViewActions.typeText;
+import static androidx.test.espresso.assertion.ViewAssertions.*;
+import static androidx.test.espresso.Espresso.*;
+import static androidx.test.espresso.matcher.ViewMatchers.*;
+import static  androidx.test.espresso.ViewAction.*;
 import static org.hamcrest.Matchers.*;
 
 @RunWith(AndroidJUnit4.class)
